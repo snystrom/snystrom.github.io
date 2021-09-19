@@ -1,0 +1,54 @@
+# The URL the site will be built for
+base_url = "https://snystrom.github.io"
+title = "Endlessly Screaming Into the Void"
+
+theme = "DeepThought"
+
+generate_feed = true
+feed_filename = "rss.xml"
+taxonomies = [
+  {name = "categories", feed = true, paginate_by = 10},
+  {name = "tags", feed = true, paginate_by = 10},
+
+]
+
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+# Put all your custom variables here
+navbar_items = [
+    { code = "en", nav_items = [
+        { url = "$BASE_URL/", name = "Home" },
+        { url = "$BASE_URL/resume/snystrom_web_resume.pdf", name = "Resume" },
+        #{ url = "$BASE_URL/posts", name = "Posts" },
+        { url = "$BASE_URL/protocols", name = "Molecular Biology Protocols" },
+        #{ url = "$BASE_URL/tags", name = "Tags" },
+        #{ url = "$BASE_URL/categories", name = "Categories" },
+    ] },
+]
+
+[extra.author]
+name = "Spencer"
+avatar = "/images/spencer_2019.jpeg"
+
+[extra.social]
+github = "snystrom"
+#gitlab = "snystrom"
+keybase = "snystrom"
+orcid = "0000-0003-1000-1579"
+google_scholar = "Oz8OLpsAAAAJ"
+#linkedin = ""
+#stackoverflow = ""
+#email = ""
+twitter = "NystromSpencer"
+
