@@ -39,7 +39,7 @@ navbar_items = [
 
 [extra.author]
 name = "Spencer"
-avatar = "/images/spencer_2019.jpeg"
+avatar = "/images/spencer_ascii.png"
 
 [extra.social]
 github = "snystrom"

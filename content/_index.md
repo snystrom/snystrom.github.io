@@ -1,10 +1,9 @@
 +++
-title = "A stupid website"
-slug = "theslug"
+title = "Spencer Nystrom"
 
 [extra.author]
 name = "Spencer"
 +++
 
-# Here's a header
+**You've met a terrible fate, haven't you?**
 and some more text goes here
