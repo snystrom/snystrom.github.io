@@ -1,5 +1,6 @@
 +++
 title = "Spencer Nystrom"
+description = "Recovering academic"
 
 [extra.author]
 name = "Spencer"
