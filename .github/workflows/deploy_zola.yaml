@@ -1,6 +1,10 @@
-# On every push this script is executed
-on: push
+on:
+  push:
+    branches:
+      - main
+
 name: Build and deploy GH Pages
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,6 +16,4 @@ jobs:
         env:
           # Target branch
           PAGES_BRANCH: gh-pages
-          # Provide personal access token
-          #TOKEN: ${{ secrets.DEPLOY_ZOLA }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
