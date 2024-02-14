@@ -13,4 +13,5 @@ jobs:
           # Target branch
           PAGES_BRANCH: gh-pages
           # Provide personal access token
-          TOKEN: ${{ secrets.DEPLOY_ZOLA }}
+          #TOKEN: ${{ secrets.DEPLOY_ZOLA }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
