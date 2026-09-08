@@ -1,9 +1,9 @@
 +++
-title = "Spencer Nystrom"
+title = "Sabrina Nystrom"
 description = "Recovering academic"
 
 [extra.author]
-name = "Spencer"
+name = "Sabrina"
 +++
 
 <center>

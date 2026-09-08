@@ -5,7 +5,7 @@ date=2021-09-19
 slug = "Monoclonal antibody purification"
 
 [extra.author]
-name = "Spencer"
+name = "Sabrina"
 
 [taxonomies]
 categories = ["Protocols"]
