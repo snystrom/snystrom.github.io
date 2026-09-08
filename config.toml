@@ -29,7 +29,7 @@ highlight_code = true
 navbar_items = [
     { code = "en", nav_items = [
         { url = "$BASE_URL/", name = "Home" },
-        { url = "$BASE_URL/resume/snystrom_web_resume.pdf", name = "Resume" },
+        #{ url = "$BASE_URL/resume/snystrom_web_resume.pdf", name = "Resume" },
         #{ url = "$BASE_URL/posts", name = "Posts" },
         { url = "$BASE_URL/protocols", name = "Molecular Biology Protocols" },
         #{ url = "$BASE_URL/tags", name = "Tags" },
@@ -38,8 +38,8 @@ navbar_items = [
 ]
 
 [extra.author]
-name = "Spencer"
-avatar = "/images/spencer-headshot-pixel.png"
+name = "Sabrina"
+avatar = "/images/sabrina-headshot-pixel.png"
 
 [extra.social]
 github = "snystrom"
@@ -50,7 +50,6 @@ google_scholar = "Oz8OLpsAAAAJ"
 #linkedin = ""
 #stackoverflow = ""
 #email = ""
-#twitter = "NystromSpencer"
 mastodon_user = "@snystrom"
 mastodon_domain = "genomic.social"
 
